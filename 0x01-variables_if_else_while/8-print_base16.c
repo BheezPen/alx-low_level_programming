@@ -3,25 +3,27 @@
 
 /**
  * main - Entry point
- * Description: prints lowercase alphabets
+ * Description: Print base 16 numbers
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
 
-int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+char c;
+char d = '0';
+while (d <= '9')
 {
-if (ch != 'e' && ch != 'q')
+putchar(d);
+d++;
+}
+for (c = 'a'; c <= 'f'; c++)
 {
-putchar(ch);
+putchar(c);
 }
-else
-{
-}
-}
+
 putchar('\n');
+
 return (0);
 
 }
