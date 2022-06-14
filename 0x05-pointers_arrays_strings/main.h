@@ -1,5 +1,5 @@
-#ifndef FILE_HOLBERTON
-#define FILE_HOLBERTON
+#ifndef FILE_ALX
+#define FILE_ALX
 
 int _putchar(char c);
 void reset_to_98(int *n);
