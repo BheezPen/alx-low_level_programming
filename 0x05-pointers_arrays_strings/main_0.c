@@ -13,5 +13,4 @@ char *str;
 str = "main!";
 _puts(str);
 return (0);
-
 }
