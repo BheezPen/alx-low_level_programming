@@ -1,1 +1,1 @@
-This is a C programming class
+ a function that concatenates two strings
